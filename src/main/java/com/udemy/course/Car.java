@@ -1,0 +1,12 @@
+package com.udemy.course;
+
+public class Car extends Machine1{
+    @Override
+    public void start() {
+        System.out.println("Car started");
+    }
+
+    public void wipeWindShield(){
+        System.out.println("Wiping windshield");
+    }
+}
